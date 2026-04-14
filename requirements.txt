@@ -1,0 +1,14 @@
+# Clean Code Bot — Python dependencies
+# Pinned to compatible ranges; update with `pip-compile` after testing.
+
+# LLM provider SDK (OpenAI-compatible; also used for Groq via base_url override)
+openai>=1.30.0,<2.0.0
+
+# CLI framework
+click>=8.1.0,<9.0.0
+
+# .env file loader
+python-dotenv>=1.0.0,<2.0.0
+
+# Minimum Python version: 3.10
+# (uses str | None union syntax and match statements — not compatible with 3.9)
